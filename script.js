@@ -43,7 +43,7 @@ function selectSection(index){
 
 // one time load
 $(document).ready(function(){
-	$(this).scrollTop(0);
+	$(this).scrollTop(0).scrollLeft(0);
 
 	// (#projects-section-container)
 	for (var sectionIndex=0; sectionIndex < globalData["sections-list"].length; sectionIndex++)
