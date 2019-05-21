@@ -1,0 +1,289 @@
+:root {
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+	color: rgb(30, 30, 30);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	background-color: #929292;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}
+
+#welcome-text {
+	font-family: 'Nova Mono', monospace;
+	position: absolute;
+	text-align: center;
+	color: rgb(214, 214, 214);
+	width: 100%;
+	margin-top: 10vh;
+	font-size:  8vw;
+}
+#welcome-arrow {
+	height: 10px;
+	width: 10px;
+	box-shadow: -10px 10px 0 rgb(214, 214, 214);
+	position: absolute;
+	padding: 2vw;
+	transform: rotate(-45deg);
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 20vh;
+	animation: welcomeArrow 3s;
+  	animation-iteration-count: infinite;
+}
+@keyframes welcomeArrow {
+  from {bottom: 20vh;}
+  to {bottom: 10vh;}
+}
+#header-animated-div {
+	height: 100%;
+	width: 0;
+	margin: auto;
+	animation: expand 3s;
+  	animation-iteration-count: infinite;
+	overflow: visible;
+	padding: auto auto auto;
+}
+@keyframes expand {
+  from {width: 0%; background-color: rgba(50, 50, 50, 0.7);}
+  to {width: 100%; background-color: rgba(30, 30, 30, 0);}
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(30, 30, 30);
+}
+footer {
+	background-color: rgb(30, 30, 30);
+	width: 100%;
+	height: 50vh;
+}
+
+#projects-showcase {
+	max-width: 900px;
+	height: auto;
+	margin: 40px auto 20px;
+}
+
+#nav-container {
+	background-color: rgb(228, 243, 20);
+	border: 3px rgb(30, 30, 30) solid;
+	border-radius: 40px 40px 0px 0px;
+	padding: 10px 15px 5px;
+}
+#projects-showcase-nav {
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	
+}
+#section-title {
+	font-size: 2rem;
+	width: 60%;
+	display: inline-block;
+	height: 10%;
+	letter-spacing: 0.6vw;
+}
+
+.disabled-nav {
+	box-shadow: none !important;
+	cursor: default !important;
+}
+#nav-left, #nav-right {
+	height: 10px;
+	width: 10px;
+	transition: .3s;
+	cursor: pointer;
+	display: inline-block;
+	box-shadow: -7px 7px 0 rgb(50, 50, 50);
+	padding: 12px;
+}
+#nav-left:hover, #nav-right:hover {
+	box-shadow: -10px 10px 0 rgb(50, 50, 50);
+}
+#nav-left:active, #nav-right:active {
+	box-shadow: -5px 5px 0 rgb(50, 50, 50);
+}
+#nav-left {
+	transform: rotate(45deg);
+}
+#nav-right {
+	transform: rotate(225deg);
+}
+
+/* section description container*/
+#projects-section-description-div {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#projects-section-description {
+	text-align: center;
+	color: rgb(30, 30, 30);
+	font-size: 1.1rem;
+}
+
+#projects-section-container {
+	
+}
+.project {
+	transition: .5s;
+	background-color: rgb(226, 226, 226);
+	border: 3px rgb(30, 30, 30) solid;
+	margin: 10px auto 0;
+	padding: 5px 5% 10px;
+	position: relative;
+	overflow: hidden;
+	height: 50px;
+}
+.project:hover {
+	height: 500px;
+}
+.project-title {
+	width: 100%;
+	text-align: center;
+	font-size: 1.4rem;
+	margin: 10px auto 10px;
+}
+.project-description {
+	font-family: 'Comfortaa', cursive;
+	width: 100%;
+}
+.project-description a,  #projects-section-description a {
+	color: rgb(30, 30, 30);
+	text-decoration: underline;
+}
+.project-description a:hover, #projects-section-description a:hover {
+	background-color: rgb(30, 30, 30);
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+}
+.award {
+	font-family: 'Kalam', cursive;
+	display: block;
+}
+
+.project-image {
+	display: inline-block;
+	border: 3px rgb(30, 30, 30) solid;
+	width: 40%;
+	margin-left: 5%; 
+}
+.project-button {
+	color: rgb(30, 30, 30);
+	border: 3px rgb(30, 30, 30) solid;
+	text-align: center;
+	position: absolute;
+	padding: 30px 0 0;
+	width: 250px;
+	height: 60px;
+	top: 240px;
+	right: 100px;
+	font-size: 1.2rem;
+}
+/* hover effect on buttons*/
+.project-button:hover + .button-hover-animate {
+	width: 255px;
+	right: 100px;
+}
+.button-hover-animate {
+	transition: .5s;
+	pointer-events: none;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 95px;
+	width: 0px;
+	top: 240px;
+	right: 227px;
+}
+.button-space {
+	height: 120px;
+	width: 100%;
+	display: none;
+}
+
+/* smaller screens */
+@media only screen and (max-width: 800px) {
+	:root {
+		font-size: 18px;
+	}
+
+	#welcome-text {
+		font-size: 12vw;
+	}
+	#welcome-arrow {
+		padding: 3vw;
+	}
+
+	#section-title {
+		font-size: 1.2rem;
+	}
+	#nav-left, #nav-right {
+		height: 5px;
+		width: 5px;
+	}
+
+	#projects-section-description {
+		font-size: 1rem;
+	}
+	.project-image {
+		display: block;
+		width: 75%;
+		margin: 0 auto 0;
+	}
+	/* move button down below image and expand project div height */
+	.project-button {
+		height: 40px;
+		padding-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top: 430px;
+		font-size: 1rem;
+	}
+	.button-hover-animate { display: none; }
+	.button-space {display: block;}
+	
+}
+
+
+/* hide gears */
+@media only screen and (max-width: 1000px) {
+	#gear-left, #gear-right {display: none;}
+	#projects-showcase {
+		margin: 40px 10px 20px;
+	}
+}
+
+#gear-left, #gear-right {
+	position: absolute;
+	width: 12vw;
+	z-index: -10;
+}
+
+#gear-left {left: -6vw;}
+#gear-right {right: -6vw;}
+
+a {
+	text-decoration: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
