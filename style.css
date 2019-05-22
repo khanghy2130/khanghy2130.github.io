@@ -3,11 +3,11 @@
 	font-family: 'Righteous', cursive;
 	color: rgb(30, 30, 30);
 }
+a {text-decoration: none;}
 
 html {
 	scroll-behavior: smooth;
 }
-
 body {
 	margin: 0;
 	background-color: #929292;
@@ -128,7 +128,7 @@ header {
 }
 
 #projects-section-container {
-	
+	padding: 0 0 30px;
 }
 .project {
 	transition: .5s;
@@ -206,6 +206,63 @@ header {
 	display: none;
 }
 
+/* top project title */
+#top-projects-heading {
+	font-size: 1.8rem;
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	color: rgb(255, 255, 255);
+	letter-spacing: 0.4rem;
+	animation: spacingOut 5s ease-out infinite;
+}
+@keyframes spacingOut {
+	50% {
+		letter-spacing: 0.7rem;
+		color: rgb(199, 199, 199);
+	}
+	100% {
+		letter-spacing: 0.4rem;
+		color: rgb(255, 255, 255);
+	}
+}
+
+#top-projects {
+	text-align: center;
+}
+#top-projects div {
+	position: relative;
+	display: inline-block;
+	width: 25vw;
+	margin: 5px 20px 20px;
+	overflow: hidden;
+}
+#top-projects img {
+	width: 100%;
+	border: 3px rgb(30, 30, 30) solid;
+	filter: blur(10px);
+	transition: .7s;
+}
+#top-projects h3 {
+	pointer-events: none;
+	transition: .7s;
+	font-size: 2vw;
+	color: rgb(226, 226, 226);
+	text-shadow: 2px 2px black;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 35%;
+}
+#top-projects img:hover {
+	filter: blur(0px);
+}
+#top-projects img:hover + h3 {
+	top: -50%;
+}
+
 footer {
 	background-color: rgb(30, 30, 30);
 	width: 100%;
@@ -275,25 +332,23 @@ footer {
 }
 
 
-/* hide gears */
+/* below max width for project showcase */
 @media only screen and (max-width: 1000px) {
-	#gear-left, #gear-right {display: none;}
 	#projects-showcase {
 		margin: 40px 10px 20px;
 	}
-}
 
-#gear-left, #gear-right {
-	position: absolute;
-	width: 12vw;
-	z-index: -10;
-}
-
-#gear-left {left: -6vw;}
-#gear-right {right: -6vw;}
-
-a {
-	text-decoration: none;
+	#top-projects-heading {
+		animation: none;
+	}
+	#top-projects div {
+		display: block;
+		width: 70vw;
+		margin: 10px auto 10px;
+	}
+	#top-projects h3 {
+		font-size: 8vw;
+	}
 }
 
 .noselect {

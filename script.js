@@ -134,17 +134,4 @@ var updateAutoTypedText = setInterval(function(){
 	$("#welcome-text").text(welcomeText["text"]);
 }, 100);
 
-// gear animation, clear this if gear is not visible
-var gearAnimation = setInterval(function(){ 
-	$("#gear-left")
-		.css("transform", "rotate(" + window.scrollY/10 + "deg)")
-		.css("top", (400 + window.scrollY * 0.85) + "px");
-	$("#gear-right")
-		.css("transform", "rotate(" + -window.scrollY/10 + "deg)")
-		.css("top", (700 + window.scrollY * 0.6) + "px");
-}, 10);
-if ($(window).width() < 1000) { clearInterval(gearAnimation); }
-
-
-
 

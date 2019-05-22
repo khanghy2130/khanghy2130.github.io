@@ -32,9 +32,6 @@ var globalData = {
 		"rgb(94, 239, 62)", "rgb(80, 138, 252)", "rgb(164, 88, 252)", "rgb(249, 74, 231)", "rgb(242, 87, 87)", "rgb(252, 180, 37)", "rgb(228, 243, 20)", 
 	],
 
-	// list of top projects -> project data
-	"top-projects": [[0,3], [2, 0], [0, 2]],
-
 	// list of sections -> section data
 	"sections-list": [
 		// PROESSING.JS
