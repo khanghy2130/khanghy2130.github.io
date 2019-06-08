@@ -81,6 +81,13 @@ var globalData = {
 					"image": "processingjs-images/arrows.png",
 					"button": "<a href=\"https://www.khanacademy.org/computer-programming/arrows-a-puzzle-game/4757895542374400\">OPEN GAME</a>",
 				},
+				// project 7
+				{
+					"name": "Equalizing",
+					"description": "A math-based game when you use operations to equalize both sides.",
+					"image": "processingjs-images/equalizing.png",
+					"button": "<a href=\"https://www.khanacademy.org/computer-programming/equalizing-a-puzzle-game/5675379046842368\">OPEN GAME</a>",
+				},
 			],
 		},
 		// APP INVENTOR
