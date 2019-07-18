@@ -88,6 +88,13 @@ var globalData = {
 					"image": "processingjs-images/equalizing.png",
 					"button": "<a href=\"https://www.khanacademy.org/computer-programming/equalizing-a-puzzle-game/5675379046842368\">OPEN GAME</a>",
 				},
+				// project 8
+				{
+					"name": "Snakes",
+					"description": "A logic-based game where you learn the rule through examples.",
+					"image": "processingjs-images/snakes.png",
+					"button": "<a href=\"https://khanacademy.org/cs/i/4631827819888640\">OPEN GAME</a>",
+				},
 			],
 		},
 		// UNITY
