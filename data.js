@@ -91,7 +91,7 @@ var globalData = {
 				// project 8
 				{
 					"name": "Snakes",
-					"description": "A logic-based game where you learn the rule through examples.",
+					"description": "A logic-based game where you learn the rule through examples. It's based on <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=org.gromozeka1980.caterpillar_logic\">Caterpillar Logic</a>.",
 					"image": "processingjs-images/snakes.png",
 					"button": "<a href=\"https://khanacademy.org/cs/i/4631827819888640\">OPEN GAME</a>",
 				},
