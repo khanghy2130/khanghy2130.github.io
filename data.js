@@ -95,7 +95,7 @@ var globalData = {
 					"image": "processingjs-images/snakes.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=7\">OPEN GAME</a>",
 				},
-			],7
+			],
 		},
 		// UNITY
 		{
