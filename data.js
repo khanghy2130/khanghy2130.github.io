@@ -25,7 +25,7 @@
 
 var globalData = {
 	"welcome-texts": [
-		"Welcome to my portfolio.", "My name is Hy Nguyen.", "I go by Logix Indie, a puzzle games creator.", "I love problem solving...", "as well as presenting it as a game.", 
+		"Welcome to my portfolio.", "I go by Logix Indie, a puzzle games creator.", "I love problem solving...", "as well as presenting it as a game.", 
 	],
 
 	"section-colors": [
@@ -37,7 +37,7 @@ var globalData = {
 		// PROESSING.JS
 		{
 			"section-name": "Processing.js",
-			"section-description": "<a target=\"_blank\" href=\"https://www.khanacademy.org\">Khan Academy</a> is a great platform for creating web-based programs with <a target=\"_blank\" href=\"http://processingjs.org/\">Processing.js</a>.",
+			"section-description": "<a target=\"_blank\" href=\"http://processingjs.org/\">Processing.js</a> is a great library for creating interactive programs on canvas.",
 			"projects": [
 				// project 1
 				{
