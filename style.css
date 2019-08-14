@@ -132,7 +132,7 @@ header {
 }
 .project {
 	transition: .5s;
-	background-color: rgb(226, 226, 226);
+	background-image: linear-gradient(rgb(226, 226, 226), 70%, rgb(180, 180, 180));
 	border: 3px rgb(30, 30, 30) solid;
 	margin: 10px auto 0;
 	padding: 5px 5% 10px;
@@ -333,7 +333,7 @@ footer {
 
 
 /* below max width for project showcase */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 930px) {
 	#projects-showcase {
 		margin: 40px 10px 20px;
 	}
