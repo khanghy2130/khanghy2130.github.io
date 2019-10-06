@@ -44,70 +44,70 @@ var globalData = {
 					"name": "Wormhole",
 					"description": "A line-drawing game with the presence of wormholes. It's one of my most favorite randomized puzzle games.",
 					"image": "processingjs-images/wormhole.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=0\">OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=0\">OPEN GAME</a>",
 				},
 				// project 2
 				{
 					"name": "Picross",
 					"description": "A puzzle game similar to Minesweeper, inspired by <a  target=\"_blank\" href=\"http://liouh.com/picross/\">a version of Picross</a> by Henry Liou.",
 					"image": "processingjs-images/picross.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=1\">OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=1\">OPEN GAME</a>",
 				},
 				// project 3
 				{
 					"name": "⍟ Escaped ⍟",
 					"description": "A maze game with many twists including destroying walls, limited moves, and more.",
 					"image": "processingjs-images/escaped.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=2\">OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=2\">OPEN GAME</a>",
 				},
 				// project 4
 				{
 					"name": "⍟ Python ⍟",
 					"description": "A snake game with gravity, featuring in-game Level Editor for the players. <a target=\"_blank\" href=\"https://youtu.be/EBkodFo-oWA\">Watch walkthrough video</a>.",
 					"image": "processingjs-images/python.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=3\"> OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=3\"> OPEN GAME</a>",
 				},
 				// project 5
 				{
 					"name": "Slide",
 					"description": "Your goal is to restore the shuffled image by sliding the pieces, featuring multiple difficulties and images.",
 					"image": "processingjs-images/slide.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=4\">OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=4\">OPEN GAME</a>",
 				},
 				// project 6
 				{
 					"name": "Arrows",
 					"description": "An unique puzzle game that is simple yet challenging.",
 					"image": "processingjs-images/arrows.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=5\">OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=5\">OPEN GAME</a>",
 				},
 				// project 7
 				{
 					"name": "Equalizing",
 					"description": "A math-based game where you use operations to equalize both sides.",
 					"image": "processingjs-images/equalizing.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=6\">OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=6\">OPEN GAME</a>",
 				},
 				// project 8
 				{
 					"name": "Snakes",
 					"description": "A logic-based game where you learn the rule through examples. It's based on <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=org.gromozeka1980.caterpillar_logic\">Caterpillar Logic</a>.",
 					"image": "processingjs-images/snakes.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=7\">OPEN GAME</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=7\">OPEN GAME</a>",
 				},
 				// project 9
 				{
 					"name": "Alloy",
 					"description": "Not a game, but a pattern animation. It's the one that we all would love to stare at.",
 					"image": "processingjs-images/alloy.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=8\">OPEN</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=8\">OPEN</a>",
 				},
 				// project 10
 				{
 					"name": "Perspective",
 					"description": "A 3D program about looking at different perspectives would see different figures, it also provides an editor. Rendering engine is from <a target=\"_blank\" href=\"http://www.petercollingridge.co.uk/tutorials/3d/processing\">Peter Collingridge</a>.",
 					"image": "processingjs-images/perspective.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processingjs/?game=9\">OPEN</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=9\">OPEN</a>",
 				},
 			],
 		},
