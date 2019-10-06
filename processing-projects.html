@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Untitled</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    	body {
+			background-color: black;
+			justify-content: center;
+			text-align: center;
+		}
+
+		hr {
+			border-color: gray;
+		}
+
+		#nav {
+		  	justify-content: center;
+			text-align: center;
+			font-size: 30px;
+			font-family: cursive;
+		}
+
+		a {
+			color:rgb(184, 184, 184);
+			text-decoration: none;
+			text-align: center;
+			margin: 50px;
+		}
+		a:hover {
+			cursor: pointer;
+			color: yellow;
+		}
+    </style>
+  </head>
+  <body>
+	<div id="nav">
+		<a target="_blank" href="#" id="source-code">Source Code</a>
+		<a onClick="window.location.reload();">Refresh</a>
+		<a href="https://khanghy2130.github.io">Home</a>
+	</div>
+
+	<br/><hr/><br/>
+
+    <script>
+    	const linkdata = [
+			["Wormhole", "https://khanacademy.org/cs/i/4512114438733824", 500, 600],
+			["Picross", "https://khanacademy.org/cs/i/4882246207176704", 600, 600],
+			["Escaped", "https://khanacademy.org/cs/i/6251406233862144", 600, 600],
+			["Python", "https://khanacademy.org/cs/i/6117988698062848", 600, 600],
+			["Slide", "https://khanacademy.org/cs/i/5974287757246464", 600, 600],
+			["Arrows", "https://khanacademy.org/cs/i/4757895542374400", 600, 600],
+			["Equalizing", "https://khanacademy.org/cs/i/5675379046842368", 600, 600],
+			["Snakes", "https://khanacademy.org/cs/i/4631827819888640", 600, 600],
+			["Alloy", "https://khanacademy.org/cs/i/5886934423666688", 500, 500],
+			["Perspective", "https://khanacademy.org/cs/i/5845940635402240", 600, 402],
+		];
+
+		const urlParams = new URLSearchParams(window.location.search);
+		const game = urlParams.get('game') || 0;
+
+
+		document.title = "Playing: " + linkdata[game][0];
+		document.getElementById("source-code").href = linkdata[game][1];
+
+		// first game width is 500
+		var gameLink = linkdata[game][1];
+		gameLink += "/embed.js?editor=no&buttons=no&author=no&embed=yes&"; // add embed
+		gameLink += "width=" + linkdata[game][2] + "&height=" + linkdata[game][3];
+
+
+		var scriptEl = document.createElement("script");
+		scriptEl.setAttribute("src", gameLink);
+		document.body.appendChild(scriptEl);
+    </script>
+  </body>
+</html>
