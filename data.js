@@ -97,17 +97,10 @@ var globalData = {
 				},
 				// project 9
 				{
-					"name": "Alloy",
-					"description": "Not a game, but a pattern animation. It's the one that we all would love to stare at.",
-					"image": "processingjs-images/alloy.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=8\">OPEN</a>",
-				},
-				// project 10
-				{
 					"name": "Perspective",
 					"description": "A 3D program about looking at different perspectives would see different figures, it also provides an editor. Rendering engine is from <a target=\"_blank\" href=\"http://www.petercollingridge.co.uk/tutorials/3d/processing\">Peter Collingridge</a>.",
 					"image": "processingjs-images/perspective.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=9\">OPEN</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=8\">OPEN</a>",
 				},
 			],
 		},
