@@ -102,6 +102,13 @@ var globalData = {
 					"image": "processingjs-images/perspective.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=8\">OPEN</a>",
 				},
+				// project 10
+				{
+					"name": "Rotatic",
+					"description": "This converted project is originally made with p5.js. <a target=\"_blank\" href=\"https://github.com/khanghy2130/Rotatic\">See original project on Github</a>.",
+					"image": "processingjs-images/rotatic.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=9\">OPEN</a>",
+				},
 			],
 		},
 		// UNITY
