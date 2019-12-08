@@ -34,6 +34,21 @@ var globalData = {
 
 	// list of sections -> section data
 	"sections-list": [
+		// UNITY
+		{
+			"section-name": "Unity",
+			"section-description": "<a target=\"_blank\" href=\"https://unity3d.com/\">Unity</a> is a powerful game engine that uses C# as the scripting language.",
+			"projects": [
+				// project 1
+				{
+					"name": "⍟ Arrows Puzzle ⍟",
+					"description": "A mobile version of Arrows, featuring balanced progression and polished graphic.",
+					"image": "unity-images/arrowspuzzle.png",
+					"button": "<a href=\"https://play.google.com/store/apps/details?id=com.LogixIndie.arrowspuzzle\">GOOGLE PLAY LINK</a>",
+				}
+			],
+		},
+		
 		// PROESSING.JS
 		{
 			"section-name": "Processing.js",
@@ -111,20 +126,7 @@ var globalData = {
 				},
 			],
 		},
-		// UNITY
-		{
-			"section-name": "Unity",
-			"section-description": "<a target=\"_blank\" href=\"https://unity3d.com/\">Unity</a> is a powerful game engine that uses C# as the scripting language.",
-			"projects": [
-				// project 1
-				{
-					"name": "⍟ Arrows Puzzle ⍟",
-					"description": "A mobile version of Arrows, featuring balanced progression and polished graphic.",
-					"image": "unity-images/arrowspuzzle.png",
-					"button": "<a href=\"https://play.google.com/store/apps/details?id=com.LogixIndie.arrowspuzzle\">GOOGLE PLAY LINK</a>",
-				}
-			],
-		},
+		
 		// APP INVENTOR
 		{
 			"section-name": "App Inventor",
