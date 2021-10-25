@@ -124,6 +124,20 @@ var globalData = {
 					"image": "processingjs-images/rotatic.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=9\">OPEN</a>",
 				},
+				// project 11
+				{
+					"name": "Relink",
+					"description": "I teamed up with <a target=\"_blank\" href=\"https://itch.io/profile/bigcheese73\">BigCheese73</a> for GMTK 2021 Game Jam and made this game. <a target=\"_blank\" href=\"https://logixindie.itch.io/relink\">Original version</a>",
+					"image": "processingjs-images/relink.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=10\">OPEN</a>",
+				},
+				// project 12
+				{
+					"name": "Mystery Box",
+					"description": "A tactics game where you can play against computer or another player.",
+					"image": "processingjs-images/mysterybox.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=11\">OPEN</a>",
+				}
 			],
 		},
 		
