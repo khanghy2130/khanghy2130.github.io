@@ -41,7 +41,7 @@ var globalData = {
 			"projects": [
 				// project 1
 				{
-					"name": "⍟ Arrows Puzzle ⍟",
+					"name": "Arrows Puzzle",
 					"description": "A mobile version of Arrows, featuring balanced progression and polished graphic.",
 					"image": "unity-images/arrowspuzzle.png",
 					"button": "<a href=\"https://play.google.com/store/apps/details?id=com.LogixIndie.arrowspuzzle\">GOOGLE PLAY LINK</a>",
@@ -70,14 +70,14 @@ var globalData = {
 				},
 				// project 3
 				{
-					"name": "⍟ Escaped ⍟",
+					"name": "Escaped",
 					"description": "A maze game with many twists including destroying walls, limited moves, and more.",
 					"image": "processingjs-images/escaped.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=2\">OPEN GAME</a>",
 				},
 				// project 4
 				{
-					"name": "⍟ Python ⍟",
+					"name": "Python",
 					"description": "A snake game with gravity, featuring in-game Level Editor for the players. <a target=\"_blank\" href=\"https://youtu.be/EBkodFo-oWA\">Watch walkthrough video</a>.",
 					"image": "processingjs-images/python.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=3\"> OPEN GAME</a>",
@@ -137,6 +137,13 @@ var globalData = {
 					"description": "A tactics game where you can play against computer or another player.",
 					"image": "processingjs-images/mysterybox.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=11\">OPEN</a>",
+				},
+                // project 12
+				{
+					"name": "Little Minigame",
+					"description": "A puzzle minigame that is part of an upcoming bigger game.",
+					"image": "processingjs-images/littleminigame.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=12\">OPEN</a>",
 				}
 			],
 		},
