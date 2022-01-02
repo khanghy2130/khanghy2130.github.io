@@ -144,6 +144,13 @@ var globalData = {
 					"description": "A puzzle minigame that is part of an upcoming bigger game.",
 					"image": "processingjs-images/littleminigame.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=12\">OPEN</a>",
+				},
+                // project 13
+				{
+					"name": "Negative",
+					"description": "A puzzle about overlapping shapes.",
+					"image": "processingjs-images/negative.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=13\">OPEN</a>",
 				}
 			],
 		},
