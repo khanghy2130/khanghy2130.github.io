@@ -125,19 +125,33 @@ var globalData = {
 					"image": "processingjs-images/mysterybox.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=11\">OPEN</a>",
 				},
-                // project 12
+                // project 13
 				{
 					"name": "Little Minigame",
 					"description": "A puzzle minigame that is part of an upcoming bigger game.",
 					"image": "processingjs-images/littleminigame.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=12\">OPEN</a>",
 				},
-                // project 13
+                // project 14
 				{
 					"name": "Negative",
 					"description": "A puzzle about overlapping shapes.",
 					"image": "processingjs-images/negative.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=13\">OPEN</a>",
+				},
+                // project 15
+				{
+					"name": "Lights Editor",
+					"description": "A tool to create animations.",
+					"image": "processingjs-images/lightseditor.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=14\">OPEN</a>",
+				},
+                // project 16
+				{
+					"name": "Warp",
+					"description": "My first platformer game. Featuring frustrating difficulty and anti-gravity.",
+					"image": "processingjs-images/warp.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=15\">OPEN</a>",
 				}
 			],
 		},
