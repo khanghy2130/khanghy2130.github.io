@@ -152,6 +152,13 @@ var globalData = {
 					"description": "My first platformer game. Featuring frustrating difficulty and anti-gravity.",
 					"image": "processingjs-images/warp.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=15\">OPEN</a>",
+				},
+                // project 17
+				{
+					"name": "Homeward",
+					"description": "My first 3D game, inspired by .projekt. A team collab with 5 other members.",
+					"image": "processingjs-images/homeward.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=16\">OPEN</a>",
 				}
 			],
 		},
