@@ -159,6 +159,13 @@ var globalData = {
 					"description": "My first 3D game, inspired by .projekt. A team collab with 5 other members.",
 					"image": "processingjs-images/homeward.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=16\">OPEN</a>",
+				},
+                // project 18
+				{
+					"name": "Fit the Pieces Together",
+					"description": "Single-player version of Spread Puzzle.",
+					"image": "processingjs-images/fitthepiecestogether.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=17\">OPEN</a>",
 				}
 			],
 		},
