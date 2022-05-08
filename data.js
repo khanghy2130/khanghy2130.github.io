@@ -99,73 +99,66 @@ var globalData = {
 				},
 				// project 9
 				{
-					"name": "Perspective",
-					"description": "A 3D program about looking at different perspectives would see different figures, it also provides an editor. Rendering engine is from <a target=\"_blank\" href=\"http://www.petercollingridge.co.uk/tutorials/3d/processing\">Peter Collingridge</a>.",
-					"image": "processingjs-images/perspective.png",
+					"name": "Rotatic",
+					"description": "This converted project is originally made with p5.js. <a target=\"_blank\" href=\"https://github.com/khanghy2130/Rotatic\">See original project on Github</a>.",
+					"image": "processingjs-images/rotatic.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=8\">OPEN</a>",
 				},
 				// project 10
 				{
-					"name": "Rotatic",
-					"description": "This converted project is originally made with p5.js. <a target=\"_blank\" href=\"https://github.com/khanghy2130/Rotatic\">See original project on Github</a>.",
-					"image": "processingjs-images/rotatic.png",
+					"name": "Relink",
+					"description": "I teamed up with <a target=\"_blank\" href=\"https://itch.io/profile/bigcheese73\">BigCheese73</a> for GMTK 2021 Game Jam and made this game. <a target=\"_blank\" href=\"https://logixindie.itch.io/relink\">Original version</a>",
+					"image": "processingjs-images/relink.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=9\">OPEN</a>",
 				},
 				// project 11
 				{
-					"name": "Relink",
-					"description": "I teamed up with <a target=\"_blank\" href=\"https://itch.io/profile/bigcheese73\">BigCheese73</a> for GMTK 2021 Game Jam and made this game. <a target=\"_blank\" href=\"https://logixindie.itch.io/relink\">Original version</a>",
-					"image": "processingjs-images/relink.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=10\">OPEN</a>",
-				},
-				// project 12
-				{
 					"name": "Mystery Box",
 					"description": "A tactics game where you can play against computer or another player.",
 					"image": "processingjs-images/mysterybox.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=10\">OPEN</a>",
+				},
+                // project 12
+				{
+					"name": "Little Minigame",
+					"description": "A puzzle game about sending blockers flying.",
+					"image": "processingjs-images/littleminigame.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=11\">OPEN</a>",
 				},
                 // project 13
 				{
-					"name": "Little Minigame",
-					"description": "A puzzle minigame that is part of an upcoming bigger game.",
-					"image": "processingjs-images/littleminigame.png",
+					"name": "Negative",
+					"description": "A puzzle about overlapping shapes.",
+					"image": "processingjs-images/negative.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=12\">OPEN</a>",
 				},
                 // project 14
 				{
-					"name": "Negative",
-					"description": "A puzzle about overlapping shapes.",
-					"image": "processingjs-images/negative.png",
+					"name": "Lights Editor",
+					"description": "A tool to create animations.",
+					"image": "processingjs-images/lightseditor.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=13\">OPEN</a>",
 				},
                 // project 15
 				{
-					"name": "Lights Editor",
-					"description": "A tool to create animations.",
-					"image": "processingjs-images/lightseditor.png",
+					"name": "Warp",
+					"description": "My first platformer game. Featuring frustrating difficulty and anti-gravity.",
+					"image": "processingjs-images/warp.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=14\">OPEN</a>",
 				},
                 // project 16
 				{
-					"name": "Warp",
-					"description": "My first platformer game. Featuring frustrating difficulty and anti-gravity.",
-					"image": "processingjs-images/warp.png",
+					"name": "Homeward",
+					"description": "My first 3D game, inspired by .projekt. A team collab with 5 other members.",
+					"image": "processingjs-images/homeward.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=15\">OPEN</a>",
 				},
                 // project 17
 				{
-					"name": "Homeward",
-					"description": "My first 3D game, inspired by .projekt. A team collab with 5 other members.",
-					"image": "processingjs-images/homeward.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=16\">OPEN</a>",
-				},
-                // project 18
-				{
 					"name": "Fit the Pieces Together",
 					"description": "Single-player version of Spread Puzzle.",
 					"image": "processingjs-images/fitthepiecestogether.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=17\">OPEN</a>",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=16\">OPEN</a>",
 				}
 			],
 		},
