@@ -69,19 +69,30 @@
 		const urlParams = new URLSearchParams(window.location.search);
 		const game = Number(urlParams.get('game')) || 0;
 
+		const gameItem = linkdata[game];
 
-		document.title = "Playing: " + linkdata[game][0];
-		document.getElementById("source-code").href = linkdata[game][1];
 
-		// first game width is 500
-		var gameLink = linkdata[game][1];
-		gameLink += "/embed.js?editor=no&buttons=no&author=no&embed=yes&"; // add embed
-		gameLink += "width=" + linkdata[game][2] + "&height=" + linkdata[game][3];
+		document.title = "Playing: " + gameItem[0];
+		document.getElementById("source-code").href = gameItem[1];
+
+		var gameLink = gameItem[1];
+		gameLink += "/embed.js?editor=no&buttons=no&author=no&embed=yes"; // add embed
+		// no longer working: gameLink += "width=" + linkdata[game][2] + "&height=" + linkdata[game][3];
 
 
 		var scriptEl = document.createElement("script");
 		scriptEl.setAttribute("src", gameLink);
 		document.body.appendChild(scriptEl);
+
+		// set iframe size
+		let iframeSizingInterval = setInterval(function(){
+			let iframeEle = document.querySelector("iframe");
+			if (!iframeEle) return;
+			iframeEle.style.width = gameItem[2] + "px";
+			iframeEle.style.height = gameItem[3] + "px";
+			clearInterval(iframeSizingInterval);
+		}, 1000);
+
     </script>
   </body>
 </html>
