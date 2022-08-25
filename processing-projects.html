@@ -11,6 +11,7 @@
 			background-color: black;
 			justify-content: center;
 			text-align: center;
+			font-family: monospace;
 		}
 
 		hr {
@@ -21,7 +22,6 @@
 		  	justify-content: center;
 			text-align: center;
 			font-size: 30px;
-			font-family: cursive;
 		}
 
 		a {
@@ -29,6 +29,11 @@
 			text-decoration: none;
 			text-align: center;
 			margin: 50px;
+		}
+		p {
+			color:rgb(184, 184, 184);
+			margin: 0;
+			padding: 0;
 		}
 		a:hover {
 			cursor: pointer;
@@ -43,7 +48,9 @@
 		<a href="https://khanghy2130.github.io">Home</a>
 	</div>
 
-	<br/><hr/><br/>
+	<br/><hr/>
+	<p>If anything seems wrong, please go to Source Code instead.</p>
+	<br/>
 
     <script>
     	const linkdata = [
@@ -63,7 +70,9 @@
 				["Lights Editor", "https://khanacademy.org/computer-programming/i/6691777152073728", 600, 600],
 				["Warp", "https://khanacademy.org/computer-programming/i/6597952601636864", 600, 600],
 				["Homeward", "https://khanacademy.org/computer-programming/i/5124843918901248", 600, 600],
-				["Fit the Pieces Together!", "https://khanacademy.org/computer-programming/i/5271751824031744", 600, 600]
+				["Fit the Pieces Together!", "https://khanacademy.org/computer-programming/i/5271751824031744", 600, 600],
+				["Lazer Loop", "https://www.khanacademy.org/computer-programming/i/6503757737672704", 600, 600],
+				["Curvy Copter", "https://www.khanacademy.org/computer-programming/i/6253475262939136", 600, 600]
 		];
 
 		const urlParams = new URLSearchParams(window.location.search);
@@ -76,8 +85,8 @@
 		document.getElementById("source-code").href = gameItem[1];
 
 		var gameLink = gameItem[1];
-		gameLink += "/embed.js?editor=no&buttons=no&author=no&embed=yes"; // add embed
-		// no longer working: gameLink += "width=" + linkdata[game][2] + "&height=" + linkdata[game][3];
+		gameLink += "/embed.js?editor=no&buttons=yes&author=yes&embed=yes"; // add embed
+		/// gameLink += "width=" + linkdata[game][2] + "&height=" + linkdata[game][3];
 
 
 		var scriptEl = document.createElement("script");
@@ -85,11 +94,12 @@
 		document.body.appendChild(scriptEl);
 
 		// set iframe size
+
 		let iframeSizingInterval = setInterval(function(){
 			let iframeEle = document.querySelector("iframe");
 			if (!iframeEle) return;
-			iframeEle.style.width = gameItem[2] + "px";
-			iframeEle.style.height = gameItem[3] + "px";
+			iframeEle.style.width = (gameItem[2]+50) + "px";
+			iframeEle.style.height = (gameItem[3]+50) + "px";
 			clearInterval(iframeSizingInterval);
 		}, 1000);
 

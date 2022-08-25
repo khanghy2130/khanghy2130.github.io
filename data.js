@@ -159,6 +159,20 @@ var globalData = {
 					"description": "Single-player version of Spread Puzzle.",
 					"image": "processingjs-images/fitthepiecestogether.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=16\">OPEN</a>",
+				},
+			// project 18
+				{
+					"name": "Lazer Loop",
+					"description": "Procedural puzzler about making a lazer loop.",
+					"image": "processingjs-images/lazerloop.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=17\">OPEN</a>",
+				},
+			// project 19
+				{
+					"name": "Curvy Copter",
+					"description": "A puzzler about rotating circles on tiles.",
+					"image": "processingjs-images/curvycopter.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=18\">OPEN</a>",
 				}
 			],
 		},
