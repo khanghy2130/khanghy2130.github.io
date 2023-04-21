@@ -162,8 +162,8 @@ var globalData = {
 				},
 			// project 18
 				{
-					"name": "Lazer Loop",
-					"description": "Procedural puzzler about making a lazer loop.",
+					"name": "Laser Loop",
+					"description": "Procedural puzzler about making a laser loop.",
 					"image": "processingjs-images/lazerloop.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=17\">OPEN</a>",
 				},
@@ -173,8 +173,50 @@ var globalData = {
 					"description": "A puzzler about rotating circles on tiles.",
 					"image": "processingjs-images/curvycopter.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=18\">OPEN</a>",
+				},
+			// project 20
+				{
+					"name": "Num & Sum",
+					"description": "A game about finding the most sums.",
+					"image": "processingjs-images/numsum.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=19\">OPEN</a>",
+				},
+			// project 21
+				{
+					"name": "Regions",
+					"description": "A game about building regions.",
+					"image": "processingjs-images/regions.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=20\">OPEN</a>",
+				},
+			// project 22
+				{
+					"name": "Laser Loop 2",
+					"description": "Sequel of Laser Loop, featuring triangular grid.",
+					"image": "processingjs-images/laserloop2.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=21\">OPEN</a>",
+				},
+			// project 23
+				{
+					"name": "Laser Loop 3",
+					"description": "Trequel of Laser Loop, featuring cubic surface grid.",
+					"image": "processingjs-images/laserloop3.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=22\">OPEN</a>",
+				},
+			// project 24
+				{
+					"name": "Shift",
+					"description": "A game about shifting hypersquares to matching patterns.",
+					"image": "processingjs-images/shift.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=23\">OPEN</a>",
+				},
+			// project 25
+				{
+					"name": "Penta Sweeper",
+					"description": "A game about finding the correct colors on pentagon grid.",
+					"image": "processingjs-images/pentasweeper.png",
+					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=24\">OPEN</a>",
 				}
-			],
+			]
 		},
 		
 		// APP INVENTOR
