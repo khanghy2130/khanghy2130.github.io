@@ -208,13 +208,6 @@ var globalData = {
 					"description": "A game about shifting hypersquares to matching patterns.",
 					"image": "processingjs-images/shift.png",
 					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=23\">OPEN</a>",
-				},
-			// project 25
-				{
-					"name": "Penta Sweeper",
-					"description": "A game about finding the correct colors on pentagon grid.",
-					"image": "processingjs-images/pentasweeper.png",
-					"button": "<a href=\"https://khanghy2130.github.io/processing-projects.html?game=24\">OPEN</a>",
 				}
 			]
 		},
